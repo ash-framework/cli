@@ -5,12 +5,14 @@
   "private": true,
   "main": "app/application.js",
   "scripts": {
-    "start": "node .",
+    "start": "babel-node --harmony-async-await .",
+    "build": "babel app -d prod",
+    "server": "node --harmony-async-await prod/application.js",
     "test": ""
   },
   "repository": "",
   "engines": {
-    "node": ">= 0.6.7"
+    "node": ">=7.1.0"
   },
   "author": "",
   "license": "MIT"
