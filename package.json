@@ -105,7 +105,8 @@
   ],
   "standard": {
     "ignore": [
-      "/dist/"
+      "/dist/",
+      "/lib/blueprints"
     ]
   },
   "bin": {
