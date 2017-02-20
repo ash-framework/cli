@@ -39,7 +39,66 @@ Cli for Ash framework
 
 
 ## Usage
-Usage instructions go here
+
+### Getting started
+
+#### Before you begin
+
+1. Make sure you are running the latest version of node js (At least version 7)
+
+2. Install `yarn`
+```
+npm install --global yarn
+```
+
+#### Install cli
+
+You can install the Ash cli either via `yarn` or `npm`
+
+```
+// option 1. via yarn
+yarn global add @ash-framework/cli
+```
+
+```
+// option 2. via npm
+npm install --global @ash-framework/cli
+```
+
+#### Scaffold up a new project
+```
+mkdir my-awesome-project
+cd my-awesome-project
+ash init
+```
+
+#### Create your first route
+```
+ash generate route posts
+```
+
+Edit your app/routes/posts.js route file to return something from the provided model 
+hook
+
+```js
+// app/routes/posts.js
+import Ash from '@ash-framework/ash'
+
+export default class PostsRoute extends Ash.Route {
+  model () {
+    return [
+      {id: 1, title: 'My post 1', description: 'WoW'},
+      {id: 2, title: 'My post 2', description: 'WoWsErS'}
+    ]
+  }
+}
+```
+
+#### Run the server
+
+```
+ash server
+```
 
 <!-- HISTORY/ -->
 
