@@ -9,7 +9,7 @@
 
 <span class="badge-badge"><a href="https://mediasuite.co.nz" title="The Media Suite"><img src="https://mediasuite.co.nz/ms-badge.png" alt="The Media Suite" /></a></span>
 <br class="badge-separator" />
-<span class="badge-badge"><a href="https://nodei.co/npm/cli"><img src="https://nodei.co/npm/cli.png?downloads=true&stars=true" /></a></span>
+<span class="badge-badge"><a href="https://nodei.co/npm/@ash-framework/cli"><img src="https://nodei.co/npm/@ash-framework/cli.png?downloads=true&stars=true" /></a></span>
 <br class="badge-separator" />
 <span class="badge-travisci"><a href="http://travis-ci.org/ash-framework/cli" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/ash-framework/cli/master.svg" alt="Travis CI Build Status" /></a></span>
 <span class="badge-npmversion"><a href="https://npmjs.org/package/@ash-framework/cli" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@ash-framework/cli.svg" alt="NPM version" /></a></span>

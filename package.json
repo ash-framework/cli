@@ -90,8 +90,8 @@
       [
         "badge",
         {
-          "image": "https://nodei.co/npm/cli.png?downloads=true&stars=true",
-          "url": "https://nodei.co/npm/cli"
+          "image": "https://nodei.co/npm/@ash-framework/cli.png?downloads=true&stars=true",
+          "url": "https://nodei.co/npm/@ash-framework/cli"
         }
       ],
       "---",
