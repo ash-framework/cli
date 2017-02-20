@@ -1,7 +1,7 @@
 {
   "name": "@ash-framework/cli",
   "description": "Cli for Ash framework",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "MIT",
   "main": "./lib/commands/ash.js",
   "repository": {
