@@ -1,6 +1,6 @@
 <!-- TITLE/ -->
 
-<h1>ash-cli</h1>
+<h1>@ash-framework/cli</h1>
 
 <!-- /TITLE -->
 
@@ -12,8 +12,8 @@
 <span class="badge-badge"><a href="https://nodei.co/npm/cli"><img src="https://nodei.co/npm/cli.png?downloads=true&stars=true" /></a></span>
 <br class="badge-separator" />
 <span class="badge-travisci"><a href="http://travis-ci.org/ash-framework/cli" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/ash-framework/cli/master.svg" alt="Travis CI Build Status" /></a></span>
-<span class="badge-npmversion"><a href="https://npmjs.org/package/ash-cli" title="View this project on NPM"><img src="https://img.shields.io/npm/v/ash-cli.svg" alt="NPM version" /></a></span>
-<span class="badge-npmdownloads"><a href="https://npmjs.org/package/ash-cli" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/ash-cli.svg" alt="NPM downloads" /></a></span>
+<span class="badge-npmversion"><a href="https://npmjs.org/package/@ash-framework/cli" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@ash-framework/cli.svg" alt="NPM version" /></a></span>
+<span class="badge-npmdownloads"><a href="https://npmjs.org/package/@ash-framework/cli" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/@ash-framework/cli.svg" alt="NPM downloads" /></a></span>
 <span class="badge-daviddm"><a href="https://david-dm.org/ash-framework/cli" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/ash-framework/cli.svg" alt="Dependency Status" /></a></span>
 <span class="badge-daviddmdev"><a href="https://david-dm.org/ash-framework/cli#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/ash-framework/cli.svg" alt="Dev Dependency Status" /></a></span>
 
@@ -32,7 +32,7 @@ Cli for Ash framework
 <h2>Install</h2>
 
 <a href="https://npmjs.com" title="npm is a package manager for javascript"><h3>NPM</h3></a><ul>
-<li>Install: <code>npm install --global ash-cli</code></li>
+<li>Install: <code>npm install --global @ash-framework/cli</code></li>
 <li>Executable: <code>ash</code></li></ul>
 
 <!-- /INSTALL -->
@@ -131,7 +131,9 @@ Become a sponsor!
 
 <h3>Contributors</h3>
 
-No contributors yet! Will you be the first?
+These amazing people have contributed code to this project:
+
+<ul><li><a href="http://lovebeer.nz/">Richard Walker</a> — <a href="https://github.com/ash-framework/cli/commits?author=digitalsadhu" title="View the GitHub contributions of Richard Walker on repository ash-framework/cli">view contributions</a></li></ul>
 
 
 
@@ -144,7 +146,7 @@ No contributors yet! Will you be the first?
 
 Unless stated otherwise all works are:
 
-<ul><li>Copyright &copy; <a href="http://ash-framework.com">Richard Walker</a></li></ul>
+<ul><li>Copyright &copy; <a href="http://lovebeer.nz/">Richard Walker</a></li></ul>
 
 and licensed under:
 
