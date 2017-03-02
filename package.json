@@ -1,5 +1,5 @@
 {
-  "name": "@ash-framework/cli",
+  "name": "ash-cli",
   "description": "Cli for Ash framework",
   "version": "0.1.3",
   "license": "MIT",
