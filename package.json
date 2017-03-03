@@ -1,6 +1,6 @@
 {
   "name": "ash-cli",
-  "description": "Cli for Ash framework",
+  "description": "Cli for the Ash API framework",
   "version": "0.1.5",
   "license": "MIT",
   "main": "./lib/commands/ash.js",
@@ -90,8 +90,8 @@
       [
         "badge",
         {
-          "image": "https://nodei.co/npm/@ash-framework/cli.png?downloads=true&stars=true",
-          "url": "https://nodei.co/npm/@ash-framework/cli"
+          "image": "https://nodei.co/npm/ash-cli.png?downloads=true&stars=true",
+          "url": "https://nodei.co/npm/ash-cli"
         }
       ],
       "---",
