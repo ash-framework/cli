@@ -13,6 +13,7 @@ Cli for the Ash API framework
 
 <!-- /DESCRIPTION -->
 
+View the API docs at [https://ash-framework.github.io/core](https://ash-framework.github.io/core)
 
 <!-- BADGES/ -->
 
