@@ -7,6 +7,13 @@
 <!-- /TITLE -->
 
 
+<!-- DESCRIPTION/ -->
+
+Cli for the Ash API framework
+
+<!-- /DESCRIPTION -->
+
+
 <!-- BADGES/ -->
 
 <span class="badge-badge"><a href="https://mediasuite.co.nz" title="The Media Suite"><img src="https://mediasuite.co.nz/ms-badge.png" alt="The Media Suite" /></a></span>
@@ -20,13 +27,6 @@
 <span class="badge-daviddmdev"><a href="https://david-dm.org/ash-framework/cli#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/ash-framework/cli.svg" alt="Dev Dependency Status" /></a></span>
 
 <!-- /BADGES -->
-
-
-<!-- DESCRIPTION/ -->
-
-Cli for the Ash API framework
-
-<!-- /DESCRIPTION -->
 
 
 <!-- INSTALL/ -->
