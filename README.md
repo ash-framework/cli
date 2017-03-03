@@ -1,3 +1,5 @@
+![Ash Api Framework](/logo_vertical.jpg?raw=true "Ash Api Framework")
+
 <!-- TITLE/ -->
 
 <h1>ash-cli</h1>
@@ -51,6 +53,8 @@ Cli for Ash framework
 npm install --global yarn
 ```
 
+3. (optional) to use models and the data layer, postgres must be installed
+
 #### Install cli
 
 You can install the Ash cli either via `yarn` or `npm`
@@ -77,12 +81,12 @@ ash init
 ash generate route posts
 ```
 
-Edit your app/routes/posts.js route file to return something from the provided model 
+Edit your app/routes/posts.js route file to return something from the provided model
 hook
 
 ```js
 // app/routes/posts.js
-import Ash from '@ash-framework/ash'
+import Ash from 'ash-core'
 
 export default class PostsRoute extends Ash.Route {
   model () {
@@ -99,6 +103,75 @@ export default class PostsRoute extends Ash.Route {
 ```
 ash server
 ```
+
+### Models
+
+#### Prepare your database
+
+Create a new postgres database with a table named `posts`.
+Add 2 text fields `title` and `description` as well as a sequence `id`
+
+Edit your apps database configuration in the environment config file
+
+#### Add connection details to `config/environment.js`
+
+```js
+module.exports = function (environment) {
+  const ENV = {
+    host: 'http://localhost',
+    port: 3010
+  }
+
+  ENV.database = {
+    connection: {
+      user: '<username>',
+      pass: '<password>',
+      database: '<database to use>'
+    }
+  }
+
+  return ENV
+}
+```
+
+#### Create a Post Model
+
+```
+ash generate model post
+```
+
+Edit your `app/models/post.js` file to define a models attributes
+
+```js
+// app/models/post.js
+import Ash from 'ash-core'
+
+export default class PostsRoute extends Ash.Route {
+  static attributes (attr) {
+    attr('title', 'string')
+    attr('description', 'string')
+  }
+}
+```
+
+#### Update your route
+
+Edit your `app/routes/posts.js` model hook, change it to return post model data
+
+```js
+// app/routes/posts.js
+import Ash from 'ash-core'
+
+export default class PostsRoute extends Ash.Route {
+  model () {
+    return this.store.findAll('post')
+  }
+}
+```
+
+**Note:** You can also omit the model hook entirely in this case due to naming conventions.
+A `posts` route will try to load all `post` models if no model hook is present.
+
 
 <!-- HISTORY/ -->
 
