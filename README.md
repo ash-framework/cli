@@ -172,7 +172,7 @@ export default class PostsRoute extends Ash.Route {
 **Note:** You can also omit the model hook entirely in this case due to naming conventions.
 A `posts` route will try to load all `post` models if no model hook is present.
 
-#### JSON Api
+#### JSON API
 
 Refresh: `http://location:3010/posts` and you should see your posts models serialized in [JSON API format](http://jsonapi.org/).
 
