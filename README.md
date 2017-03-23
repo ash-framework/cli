@@ -41,6 +41,8 @@ View the API docs at [https://ash-framework.github.io/core](https://ash-framewor
 
 ## Usage
 
+[![Join the chat at https://gitter.im/ash-framework/cli](https://badges.gitter.im/ash-framework/cli.svg)](https://gitter.im/ash-framework/cli?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ### Getting started
 
 #### Before you begin
