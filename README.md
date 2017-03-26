@@ -62,12 +62,12 @@ You can install the Ash cli either via `yarn` or `npm`
 
 ```
 // option 1. via yarn
-yarn global add @ash-framework/cli
+yarn global add ash-cli
 ```
 
 ```
 // option 2. via npm
-npm install --global @ash-framework/cli
+npm install --global ash-cli
 ```
 
 #### Scaffold up a new project
